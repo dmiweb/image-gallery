@@ -1,0 +1,45 @@
+.add-widget {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 50px 30px 30px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  text-align: right;
+}
+
+.input-container {
+  display: block;
+  margin-top: 15px;
+}
+
+.name-input {
+  margin-right: 60px;
+}
+
+.input {
+  width: 50%;
+}
+
+.add-button {
+  display: block;
+  width: 150px;
+  height: 35px;
+  margin: 60px auto 0;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  font-size: 17px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.add-button:active {
+  background-color: #eeeeee;
+}
+
+.error-message {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  color: red;
+}

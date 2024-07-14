@@ -1,0 +1,16 @@
+body {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #696969;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
